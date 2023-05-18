@@ -33,3 +33,5 @@ gitlab_secret=e72c65320cf9d6495984a37b0f9cc03ec46be0bb6f071feaebbfe75168117004;g
 google_secret=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;mail_password=zdfzsrqvgimldzyj;mail_username=jira4jr@gmail.com)
 4. Redo the tests so that the in memory database (H2) is used during the tests, and not PostgreSQL.
    To do this, you need to define 2 beans, and the selection of which one to use should be determined by the active Spring profile.
+5. Write tests for all public methods of the ProfileRestController controller.
+6. Add new functionality: adding tags to a task. The front is optional.
