@@ -36,4 +36,7 @@ google_secret=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;mail_password=zdfzsrqvgimldzyj
 5. Write tests for all public methods of the ProfileRestController controller.
 6. Add new functionality: adding tags to a task. The front is optional.
 
-9.  Write a Dockerfile for the main server.
+
+9. Write a Dockerfile for the main server.
+
+11.Add localization in at least two languages for email templates and the home page index.html.
