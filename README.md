@@ -24,7 +24,7 @@
 List of completed tasks:
 1. Understand the structure of the project (onboarding).
 2. Delete social networks: vk, yandex. Easy task
-![image](https://github.com/Diagmerc/project-final/assets/91744556/18bdef4a-27da-4260-9f8e-23333ed01b5e)
+![image](https://github.com/Diagmerc/project-final/assets/91744556/18bdef4a-27da-4260-9f8e-23333ed01b5e)                                                                                               
 ![image](https://github.com/Diagmerc/project-final/assets/91744556/73265c2d-f0b2-4571-b655-9c8f4501712d)
 3. Put sensitive information (login, DB password, identifiers for OAuth registration/authorization, mail settings) in a separate property file.
    The values of these properties should be read at server startup from the machine environment variables. Easy task.
@@ -35,8 +35,7 @@ gitlab_secret=e72c65320cf9d6495984a37b0f9cc03ec46be0bb6f071feaebbfe75168117004;g
 google_secret=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;mail_password=zdfzsrqvgimldzyj;mail_username=jira4jr@gmail.com)
 4. Redo the tests so that the in memory database (H2) is used during the tests, and not PostgreSQL.
    To do this, you need to define 2 beans, and the selection of which one to use should be determined by the active Spring profile.
-5. Write tests for all public methods of the ProfileRestController controller.
-
+5. Write tests for all public methods of the ProfileRestController controller.                                                                                                                
 ![image](https://github.com/Diagmerc/project-final/assets/91744556/7ef6e27c-9ea0-4bc8-8ca5-ee98bc0cf694)
 6. Add new functionality: adding tags to a task. The front is optional.
 
