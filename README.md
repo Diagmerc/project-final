@@ -35,3 +35,5 @@ google_secret=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;mail_password=zdfzsrqvgimldzyj
    To do this, you need to define 2 beans, and the selection of which one to use should be determined by the active Spring profile.
 5. Write tests for all public methods of the ProfileRestController controller.
 6. Add new functionality: adding tags to a task. The front is optional.
+
+9.  Write a Dockerfile for the main server.
