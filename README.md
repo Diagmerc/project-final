@@ -24,6 +24,8 @@
 List of completed tasks:
 1. Understand the structure of the project (onboarding).
 2. Delete social networks: vk, yandex. Easy task
+![image](https://github.com/Diagmerc/project-final/assets/91744556/18bdef4a-27da-4260-9f8e-23333ed01b5e)![image](https://github.com/Diagmerc/project-final/assets/91744556/73265c2d-f0b2-4571-b655-9c8f4501712d)
+
 3. Put sensitive information (login, DB password, identifiers for OAuth registration/authorization, mail settings) in a separate property file.
    The values of these properties should be read at server startup from the machine environment variables. Easy task.
    Done, now the data is stored in environment variables 
@@ -34,9 +36,13 @@ google_secret=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;mail_password=zdfzsrqvgimldzyj
 4. Redo the tests so that the in memory database (H2) is used during the tests, and not PostgreSQL.
    To do this, you need to define 2 beans, and the selection of which one to use should be determined by the active Spring profile.
 5. Write tests for all public methods of the ProfileRestController controller.
+![image](https://github.com/Diagmerc/project-final/assets/91744556/7ef6e27c-9ea0-4bc8-8ca5-ee98bc0cf694)
 6. Add new functionality: adding tags to a task. The front is optional.
 
 
 9. Write a Dockerfile for the main server.
 
-11.Add localization in at least two languages for email templates and the home page index.html.
+11. Add localization in at least two languages for email templates and the home page index.html.
+![image](https://github.com/Diagmerc/project-final/assets/91744556/a1d495c3-e83a-4d4b-897a-74b66dcaf2f5)
+![image](https://github.com/Diagmerc/project-final/assets/91744556/0c29a892-0fa9-467e-aae0-a3647d177fbb)
+
