@@ -24,9 +24,9 @@ spring:
         # https://stackoverflow.com/questions/21257819/what-is-the-difference-between-hibernate-jdbc-fetch-size-and-hibernate-jdbc-batc
         jdbc.batch_size: 20
   datasource:
-    url: ${db_url}
-    username: ${db_username}
-    password: ${db_password}
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
 
   liquibase:
     changeLog: "classpath:db/changelog.sql"
@@ -49,19 +49,19 @@ spring:
       client:
         registration:
           github:
-            client-id: ${github_id}
-            client-secret: ${github_secret}
+            client-id: ${GITHUB_CLIENT_ID}
+            client-secret: ${GITHUB_CLIENT_SECRET}
             scope:
               - email
           google:
-            client-id: ${google_id}
-            client-secret: ${google_secret}
+            client-id: ${GOOGLE_CLIENT_ID}
+            client-secret: ${GOOGLE_CLIENT_SECRET}
             scope:
               - email
               - profile
           gitlab:
-            client-id: ${gitlab_id}
-            client-secret: ${gitlab_secret}
+            client-id: ${GITLAB_CLIENT_ID}
+            client-secret: ${GITLAB_CLIENT_SECRET}
             client-name: GitLab
             redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
             authorization-grant-type: authorization_code
@@ -85,8 +85,8 @@ spring:
             enable: true
           auth: true
     host: smtp.gmail.com
-    username: ${mail_username}
-    password: ${mail_password}
+    username: ${MAIL_USERNAME}
+    password: ${MAIL_PASSWORD}
     port: 587
   thymeleaf.check-template-location: false
 

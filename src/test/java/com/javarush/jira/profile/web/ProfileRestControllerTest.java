@@ -24,10 +24,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@SpringBootTest
-@Sql(scripts = "classpath:db/test.sql", config = @SqlConfig(encoding = "UTF-8"))
-@AutoConfigureMockMvc
-@ActiveProfiles("test")
 class ProfileRestControllerTest extends AbstractControllerTest {
 
     @Autowired
