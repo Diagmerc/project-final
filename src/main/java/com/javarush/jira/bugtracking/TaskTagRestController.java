@@ -23,7 +23,7 @@ public class TaskTagRestController {
 
     @PutMapping(value = "/{id}/tags", consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void update(@PathVariable long id, @RequestBody @Size(min = 2, max = 32) Set<String> tags) {
+    public void update(@PathVariable long id, @RequestBody Set<@Size(min = 2, max = 32) String> tags) {
         taskService.addTag(id, tags);
     }
 }
